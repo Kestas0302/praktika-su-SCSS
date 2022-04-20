@@ -1,0 +1,102 @@
+
+
+body{
+    background-color: #b5b5c5;
+}
+
+
+$width: 88%;
+$width-1: 50%;
+$width-2: 25%;
+$color-1: #eee;
+$textcolor-1: #080f1a;
+$textcolor-2: #73829e;
+$btcolor-1: #303ca5;
+$pricecolor-1: #d3d5db;
+$borde-1: 2px solid #b5b5c5;
+
+
+
+.container{
+    width: $width;
+    display: flex;
+    background-color: $color-1;
+    text-align: center;
+    font-family: "Nunito Sans";
+    margin: 40px 70px 50px 60px;
+
+    ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    li{
+        padding: 10px 0px;
+        margin: 0px;
+    }
+
+    h6{
+        margin: 0;
+        margin-bottom: 24px;
+        color: $textcolor-2;
+        font-size: medium;
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+
+    .price{
+        display: flex;
+        h1{
+           font-size: 60px;
+           margin: 0;
+         
+        }
+        h2{
+            text-align: left;
+            margin: 0;
+        }
+
+        background-color: $pricecolor-1;
+        border-radius: 50px;
+        margin: 0 50px;
+        justify-content: center;
+    }
+
+
+    button {
+        
+        color: $btcolor-1;
+        border-color: $btcolor-1;
+        padding: 16px 50px;
+        border-radius: 5px;
+        margin-top: 16px;
+        font-size: 16px;
+        
+    }
+
+    button:hover{
+        background-color: $btcolor-1;
+        color: black;
+    }
+
+
+    .item-1 {
+        width: $width-2;
+        border: $borde-1;
+    }
+    .item-2 {
+        width: $width-2;
+        border: $borde-1;
+    }
+    .item-3 {
+        width: $width-2;
+        border: $borde-1;
+    }
+    .item-4 {
+        width: $width-2;
+        border: $borde-1;
+    }
+}
